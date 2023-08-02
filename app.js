@@ -16,7 +16,7 @@
 
 // EXAMPLES //
 
-// (Q1) Write a for loop that loops through 1 to 20 //
+// // (Q1) Write a for loop that loops through 1 to 20 //
 for (let i = 1 ; i <= 20 ; i++){
 console.log(i);
 
@@ -50,9 +50,9 @@ else{
 
 // Print out every character from the string: "frontend Simplified" //
 
-// const str = "Frontend Simplified"
+const str ="Frontend simplified"
 
-// if ( i = 0 ; i < str.length; ++i) {
-//     console.log(str[i]);
-// }
+for (let i = 0 ; i < str.length; ++i) {
+    console.log(str[i]);
+}
 
